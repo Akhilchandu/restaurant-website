@@ -1,0 +1,84 @@
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Comic Neue', cursive;
+	font-size: 16px;
+	background-color: #DDDDDD /*silver*/
+}
+h1 {
+	text-align: center;
+	font-size: 28px;
+	margin: 28px;
+}
+section{
+	background-color: #7FDBFF; /*aqua*/
+	float: left;
+	height: 280px;
+	padding: 0 0 5px 5px;
+	border: 2px solid black;
+	overflow: auto;
+	margin-bottom: 9px;
+}
+.sechead{
+	font-size: 20px;
+	width: 200px;
+	text-align: center;
+	float: right;
+	border:2px solid black;
+	border-top: 0;
+	border-right: 0;
+	margin-bottom: 5px;
+}
+#head1{
+	/*background-color: #39CCCC; /*teal*/
+	background-color: #8f00ff;
+	color: #ffffff;
+
+}
+#head2{
+	background-color: #f8e150;
+	color: #ff0000;
+}
+#head3{
+	background-color: #0ff981;
+}
+section div{
+	clear: both;
+}
+div.greet{
+	font-style: italic;
+	font-weight: 900;
+}
+@media(min-width: 992px){
+#sec1,#sec2,#sec3{
+width:30.66%;
+margin-left: 2%;
+}
+#sec3{
+	margin-right: 2%;
+}
+}
+@media(min-width: 768px) and (max-width: 991px) {
+	#sec1,#sec2{
+	width:47%;
+	margin-left: 2%;
+}
+	#sec2{
+		margin-right: 2%;
+	}
+	#sec3{
+		width: 96%;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+}
+@media(max-width: 767px){
+	#sec1,#sec2,#sec3{
+width:96%;
+margin-right: 2%;
+margin-left: 2%;
+}
+}

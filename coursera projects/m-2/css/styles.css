@@ -1,0 +1,76 @@
+body {
+	font-family: 'Comic Neue' ,cursive;
+	background-color: #7FDBFF; /*aqua*/
+}
+.navbar {
+	/*background-color: #999999;*/
+	background-color: #c1c1c1;
+	color: black;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	font-weight: 1000;
+	font-size: 30px;
+}
+h1 {
+	font-weight: 880;
+	font-size: 28px;
+}
+
+/*#text {
+	background-color: #f8e150;
+	font-size: 17px;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}*/
+#Chicken , #Beef ,#Sushi {
+	background-color: #f8e150;
+	font-size: 17px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+@media(min-width: 992px){
+#Beef.col-md-4, #Chicken.col-md-4 {
+	border-right: 7.5px solid #7FDBFF;
+	padding-right: 7.5px;
+}
+#Beef.col-md-4, #Sushi.col-md-4 {
+	border-left: 7.5px solid #7FDBFF;
+	padding-left: 7.5px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+#Beef.col-sm-6 {
+	border-left: 7.5px solid #7FDBFF;
+	padding-left: 7.5px;
+}
+#Chicken.col-sm-6{
+	border-right: 7.5px solid #7FDBFF;
+	padding-right: 7.5px;
+}
+}
+#mynav {
+	border: 0;
+	font-weight: 700;
+	font-size: 18px;
+}
+.navbar-nav {
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 1px dashed black;
+}
+hr {
+	padding: 0;
+	margin:0;
+	border: 1px dashed black;
+}
+.navbar-default .navbar-toggle {
+	border-color: #888888;
+	border-width: 1px;
+}
+.navbar-default {
+	border :1px solid #888888;
+}
